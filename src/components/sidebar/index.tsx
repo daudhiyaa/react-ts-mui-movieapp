@@ -78,7 +78,7 @@ const Sidebar = () => {
             fontWeight={400}
             fontSize={18}
           >
-            PikaShowApp
+            MovieApp
           </Typography>
         </Hidden>
 
