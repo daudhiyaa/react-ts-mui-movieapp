@@ -16,7 +16,7 @@ interface MovieTrendCardProps {
 const MovieTrendCard = ({ movie }: MovieTrendCardProps) => {
   const { dispatch } = useContext(MovieContext);
   const handleToggleBookmark = (id: string) => {
-    dispatch({ type: "TOOGLE BOOKMARK", id });
+    dispatch({ type: "TOGGLE BOOKMARK", id });
   };
 
   return (
