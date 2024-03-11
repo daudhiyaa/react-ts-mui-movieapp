@@ -132,8 +132,11 @@ const MovieTrendCard = ({ movie }: MovieTrendCardProps) => {
             sx={{
               p: "1rem",
               backgroundColor: "black",
-              borderRadius: "100%",
+              borderRadius: "50%",
               cursor: "pointer",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
               "&: hover": { opacity: 0.8 },
             }}
             onClick={() => handleToggleBookmark(movie.id)}
