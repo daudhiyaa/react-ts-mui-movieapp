@@ -1,6 +1,6 @@
 import { Grid, Paper } from "@mui/material";
 
-import { MovieDataType } from "../../assets/data";
+import { MovieDataType } from "../../constants/data";
 import MovieCard from "../movie-card";
 
 interface MovieListProps {

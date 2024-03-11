@@ -1,6 +1,6 @@
 import { Box, Grid, Paper } from "@mui/material";
 
-import { MovieDataType } from "../../assets/data";
+import { MovieDataType } from "../../constants/data";
 import MovieTrendCard from "../movie-card/movieTrend";
 
 interface MovieTrendListProps {

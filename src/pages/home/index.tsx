@@ -12,7 +12,8 @@ import Layout from "../../Layout";
 import SearchIcon from "../../assets/icons/icon-search.svg";
 import MovieTrendList from "../../components/movie-list/movieTrendList";
 import MovieList from "../../components/movie-list";
-import { MovieDataType } from "../../assets/data";
+
+import { MovieDataType } from "../../constants/data";
 import { MovieContext } from "../../context/movie-context";
 
 const Home = () => {

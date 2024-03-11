@@ -1,7 +1,9 @@
-import React, { useContext } from "react";
-import { MovieDataType } from "../../assets/data";
-import { MovieContext } from "../../context/movie-context";
+import { useContext } from "react";
 import { Box, Card, CardContent, Stack, Typography, Grid } from "@mui/material";
+
+import { MovieDataType } from "../../constants/data";
+import { MovieContext } from "../../context/movie-context";
+
 import moviesIcon from "../../assets/icons/icon-category-movie.svg";
 import tvSeriesIcon from "../../assets/icons/icon-category-tv.svg";
 import BookmarkIcon from "../icons/bookmark-icon";
